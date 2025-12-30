@@ -1,0 +1,86 @@
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Ajoute un espacement entre l’icône et le texte */
+}
+
+.nav-item {
+  margin-right: 20px; /* Ajoute un espacement entre les liens */
+}
+
+.navbar-brand img {
+  width: 50px; /* Garde une taille uniforme pour le logo */
+}
+
+.btn-orange {
+  background-color: #ff8000; /* Custom orange color */
+  border-color: #ff8000;
+  color: white;
+}
+
+.btn-orange:hover {
+  background-color: #e67300;
+  border-color: #e67300;
+}
+
+.btn-custom {
+  padding: 5px 15px;
+  font-size: 14px;
+}
+
+.animated-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  max-width: 300px;
+  text-align: center;
+  animation: fadeInRight 1.5s ease-in-out;
+}
+
+/* Animation Keyframes */
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Make the SweetAlert2 popup smaller */
+.small-popup {
+  width: 250px ;  
+  font-size: 12px ;  
+  border-radius: 8px ;  
+  text-align: center;            
+}
+
+/*Adjust the button size to match the smaller popup */
+.small-popup .swal2-confirm {
+  font-size: 12px ;
+  padding: 5px 10px ;
+  width: auto ;  
+  margin: 10px ; 
+}
+
+
+.language-menu {
+  position: absolute;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.language-menu div {
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+.language-menu div:hover {
+  background-color: #f1f1f1;
+}
+
