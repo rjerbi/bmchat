@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="ChatApp/frontend/src/images/bm-bg.png" alt="BM Chat Logo" width="150"/>
+  <img src="ChatApp/frontend/src/images/bm-bg.png" alt="BM Chat Logo" width="100"/>
 </p>
 
 # bmchat
