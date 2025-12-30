@@ -1,4 +1,6 @@
-![BM Chat Logo](ChatApp/frontend/src/images/bm-bg.png)
+<p align="center">
+  <img src="ChatApp/frontend/src/images/bm-bg.png" alt="BM Chat Logo" width="150"/>
+</p>
 
 # bmchat
 BM Chat is  **real-time chat application** built with **Django REST Framework** backend and **React.js** frontend.   Supports authentication, to-do lists, chat messaging, message translation, and suggested auto-replies.
